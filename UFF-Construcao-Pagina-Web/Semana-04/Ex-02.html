@@ -5,39 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabale 02</title>
+    <style>
+        h2{
+            text-align: left;
+            color: white;
+            background-color: blue;
+            float: left;
+        }
+        .s{
+            background-color: blue;
+            width: 1002px;
+            text-align: left;
+            float: left;
+            border: 5px blue;
+        }
+        .topo{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        td, tr , th{
+            border: black solid 1px;
+            font-size: 20px;
+        }
+        .pala{
+            margin-top: 50px;
+            border: black solid 1px; 
+        } 
+        .cargo{
+            color: blue;
+            text-align: left;
+        }
+        td{
+            text-align: center;
+        }
+        .bege{
+            background-color: beige;
+        }
+    </style>
 </head>
 <body>
-    <table>
-        <tbody>
-            <tr>
-                <td></td>
-                <td><h2>Tabela Salarial</h2></td>
-            </tr>
-        </tbody>
+<div class="s">
+    <h2>Taxa Salarial</h2>
+</div>
     </table>
+    <br>
+    <p></p>
     <section>
-        <table>
+        <br>
+        <table class="pala">
             <tbody>
                 <tr>
-                    <th>Cargo</th>
-                    <th>Especialidade</th>
-                    <th>CLT</th>
-                    <th>Free</th>
+                    <th class="topo">Cargo</th>
+                    <th class="topo">Especialidade</th>
+                    <th class="topo">CLT</th>
+                    <th class="topo">Free</th>
                 </tr>
-                <tr>
-                    <th>Gerente de Sistemas</th>
+                <tr class="bege">
+                    <td class="cargo">Gerente de Sistemas</td>
                     <td>-</td>
                     <td>5700</td>
                     <td>-</td>
                 </tr>
                 <tr>
-                    <th>Gerente de Suporte</th>
+                    <td class="cargo">Gerente de Suporte</td>
                     <td>-</td>
                     <td>5.000</td>
                     <td>-</td>
                 </tr>
-                <tr>
-                    <th rowspan="2">Coordeador  de projetos</th>
+                <tr class="bege">
+                    <td rowspan="2" class="cargo">Coordeador  de projetos</td>
                     <td>Cliente/Sevidor</td>
                     <td>3.900</td>
                     <td>4.200</td>
@@ -46,6 +83,24 @@
                     <td>Conhecimento Geral</td>
                     <td>3.440</td>
                     <td>3.950</td>
+                </tr>
+                <tr class="bege">
+                    <td class="cargo">Consultor Especialista</td>
+                    <td>-</td>
+                    <td>3.500</td>
+                    <td>4.000</td> 
+                </tr>
+                <tr>
+                    <td class="cargo">Analista de Negocios</td>
+                    <td>-</td>
+                    <td>2.700</td>
+                    <td>3.600</td>
+                </tr>
+                <tr class="bege">
+                    <td class="cargo">Analista de Sistemas</td>
+                    <td>-</td>
+                    <td>2.700</td>
+                    <td>3.000</td>
                 </tr>
             </tbody>
         </table>
