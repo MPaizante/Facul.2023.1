@@ -1,0 +1,225 @@
+@charset "UFT-8";
+@import url(https://fonts.googleapis.com/css?family=Stoke);
+@import url();
+body{
+    background-color:  #4488AA;
+    color: #99EEEE ;
+    font-size: 16px;
+    font-family: stoke, Lucida Bright, Liberation;
+}
+
+header{
+    display: block;
+    margin-bottom: 1px;
+    text-align: right; 
+    
+}
+.ender{
+    float: right;
+    text-align: right;  
+    font-size: 15px;
+    line-height: 140%;
+    font-family: Verdana, Karla, Ubuntu;
+ 
+}
+.imgLogo{
+    border-bottom: solid 3px #FFFFFF;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+    float: left;
+   
+}
+
+nav{
+    display: block;
+    width: 20%;
+    float:left;
+}
+ul.paginas{
+    color: #FFFFFF;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-image: url(../Imagens/BrilhoMark.png);
+    font-size: 20px;
+    font-family: Verdana, Karla, Ubuntu;
+}
+.ultipos{
+    list-style: disc;
+    color:#99FFFF;
+    
+
+}
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+a:visited{
+    color:#99EEEE;
+    text-decoration: none;
+}
+
+section.refri{
+    display: block;
+    width: 70%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    
+
+}
+section.listaTipos{
+    text-align: center;
+}
+.oltipos{
+    float: left;
+}
+.apres{
+    text-align: center;
+    font-size: 18px;
+}
+
+.thazul{
+    background-color: #226699;
+    border: 3px solid black;
+    padding: 6px 12px 6px 12px;
+    text-align: center;
+    
+}
+.tdbranco{
+    border: 3px solid black;
+    padding: 6px 12px 6px 12px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+
+}
+.tabInfo{
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #000066;
+    font-family: Verdana, Karla, Ubuntu;
+}
+.trbranco{
+    color: #FFFFFF;
+    background-color: #22BB66;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.colTH{
+    color: #FFFFFF;
+    background-color: #004499;
+
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+}
+.tabEstoque{
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+
+}
+.preco{
+    color: #CC0000;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    background-color: #FFFFFF;
+    
+}
+.capacidades-tipos{
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    color: #000066;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+.centro{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+}
+.imagem{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black; 
+    background-color: #FFFFFF;
+}
+.produto{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-family: Verdana, Karla, Ubuntu;
+    border: 3px solid black;
+    color: #FFFFFF; 
+    background-color: #0066DD;
+}
+form{
+    width: 520px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #0066DD;
+    border: solid 3px #000055;
+    font-size: 16px;
+    font-family: Verdana, Karla, Ubuntu;
+
+}
+fieldset{
+    color: #FFFFFF;
+    width: 490px;
+    text-align: left;
+}
+
+.linhaForm{
+    margin: 0px;
+    height: 30px;
+    padding: 6px 3px 0px 3px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.esquerda{
+    width: 80px;
+    float: left;
+    display: block;
+}
+div{
+    float: right;
+    margin: 20px 10px 0px 10px;
+}
+.box{
+    width: 40px;
+}
+.fieldireita{
+    float: right;
+    width: 50px;
+}
+.Cdireita{
+    float: right;
+    width: 290px;
+    font-size: 16px;
+}
+.Nascimento{
+    float: left;
+    width: 100px;
+}
+.redondo{
+    border-radius: 4px;
+    text-shadow: none;
+    border-color: #FFFFFF;
+}
+span{
+    font-size: 16px;
+}
+
