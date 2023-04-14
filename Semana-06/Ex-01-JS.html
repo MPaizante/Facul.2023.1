@@ -9,12 +9,19 @@
 <body>
     <h1>Primeiro Exemplo de JavaScript</h1>
     <h2>Usando tipos de dados para calcular potências de 2</h2>
-    <script>
-        for(i=1; pot=1; i<=10, i++, pot*=2){
-            document.write('2 elevado a '+i+' = ' +pot);
-            document.write('<br>');
+    <script language="JavaScript">
+       
+    for(i=1,pot=2; i<=10; i++,pot*=2){
+        document.write("2 elevado a "+ i + " = "+ pot);
+        document.write("<br>");
+    }
+     document.write("<br><h2>Tipos especiais:</h2>");
+    document.write(" 2 dividido por 0 = " + 2/0 ); //Infinity
+    document.write('<br>');
+    document.write("-2 dividido por "+ 0 +' = '+ -2/0);
+    document.write('<br>');
+    document.write("0 dividido por "+ 0 + ' = '+ 0/0 ); //NaN
 
-        }
     </script>
 </body>
 </html>
