@@ -1,0 +1,62 @@
+/*
+* Estilo Geral
+*/
+body {
+    color: #99EEEE;
+    font-size: 16px;
+    background-color: #4488AA;
+    font-family: stoke, Lucida Bright, liberation;
+   }
+   /*
+   * Estilo Seções
+   */
+   header {
+    display:block;
+    margin-bottom: 1px;
+   }
+   nav {
+    display:block;
+    width: 20%;
+    float: left;
+   }
+   section {
+    display:block;
+    width: 70%;
+    float: right;
+   }
+   /*
+   * Estilo Header
+   */
+   .ender {
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    line-height: 140%;
+    font-family: karla, verdana, ubuntu;
+   }
+   img.imgLogo {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FFFFFF;
+    margin-bottom: 6px;
+   }
+   /*
+   * Estilo Nav
+   */
+   a:link { color:#FFFFFF; text-decoration:none; }
+   a:visited { color:#99EEEE; text-decoration:none; }
+   nav ul {
+    color: #FFFFFF;
+    margin-top: 40px;
+    line-height: 230%;
+    font-size: 20px;
+    font-family: karla, verdana, ubuntu;
+    list-style-image: url('Imagens/BrilhoMark.png');
+   }
+   /***************************************
+   * Estilo Seção Apresentação
+   */
+   div.apres {
+    text-align: center;
+    font-size: 18px;
+   }
+   
