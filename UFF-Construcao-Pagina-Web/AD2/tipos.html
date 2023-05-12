@@ -7,6 +7,7 @@
     <title>tipos</title>
     <link rel="stylesheet" type="text/css" href="RefriGlobal.css">
 <style>
+    
 div{
     height: 250px;
     width: 200px;
@@ -16,10 +17,18 @@ div{
 p{
     font-size: 30px;
 }
-
+button{
+    text-align: center;
+}
 </style>
 </head>
 <body>
+    <script>
+        function fechar(fecha){
+            window.close()
+        };
+         
+    </script>
     <div>
         <p>Tipos de Ar-condicionado<p>
         <ul>
@@ -27,7 +36,7 @@ p{
             <li>Spliter</li>
             <li>Portátil</li>
         </ul>
-        <button type="">Fechar</button>
+        <button type="button" onclick="fechar()">Fechar</button>
     </div>
 </body>
 </html>
