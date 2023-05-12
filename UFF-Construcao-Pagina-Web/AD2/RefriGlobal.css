@@ -87,3 +87,8 @@ body {
     vertical-align: middle;
     background-color: #004499;
    }
+
+   .tabInfo .colTH {
+    color: #FFFFFF;
+    text-align: left;
+    background-color: #0066DD;}
