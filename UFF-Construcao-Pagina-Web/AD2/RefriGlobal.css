@@ -92,3 +92,72 @@ body {
     color: #FFFFFF;
     text-align: left;
     background-color: #0066DD;}
+
+    .FormBox {
+        width: 520px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+        background-color: #0066DD;
+        border: 3px solid #000055;
+        font-size: 16px;
+        font-family: karla, verdana, ubuntu;
+       }
+       /*** Fieldsets ***/
+       .FSLinInteira {
+        color: white;
+        width: 490px;
+        text-align: left;
+       }
+       .FSColEsq {
+        width: 210px;
+        float: left;
+        text-align: center;
+       }
+       .FSColDir {
+        width: 210px;
+        float: right;
+        text-align: center;
+       }
+       .LinhaForm {
+        margin: 0px;
+        height: 30px;
+        padding: 6px 3px 0px 3px;
+       }
+       .ColEsq {
+        width: 180px;
+        float: left;
+        display: block;
+       }
+       .ColDir {
+        width: 180px;
+        float: right;
+        display: block;
+       }
+       .LabBox {
+        width: 80px;
+        float: left;
+        display: block;
+       }
+       .InpBoxGnd {
+        width: 384px;
+        float: right;
+        display: block;
+       }
+       .InpBoxMed {
+        width: 80px;
+        float: right;
+        display: block;
+       }
+       .numDD { width:35px; }
+       .numQD { width:50px; }
+       .botoes {
+        text-align: right;
+        margin: 20px 10px 0px 10px;
+       }
+       /***************************************
+       * Estilo Formulário Cadastro
+       */
+       #linhaEnder { height: 50px; }
+       #inpEnder { height: 80%; width: 394px; }
+       
