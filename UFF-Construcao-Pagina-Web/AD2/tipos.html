@@ -8,18 +8,33 @@
     <link rel="stylesheet" type="text/css" href="RefriGlobal.css">
 <style>
     
-div{
+section.tt{
     height: 250px;
     width: 200px;
-    background-color: blue;
+    
+    text-align: center;
+    display: block;
+    color: #99EEEE;
+    font-size: 16px;
+    background-color: #4488AA;
+    font-family: stoke, Lucida Bright, liberation;
+    
+    float: left;
+    
+}
+li{
+    
+    padding: 5px 5px 5px 1px;
+  
+}
+ul{ 
+    list-style-type: disc;
     
 }
 p{
     font-size: 30px;
 }
-button{
-    text-align: center;
-}
+
 </style>
 </head>
 <body>
@@ -29,14 +44,16 @@ button{
         };
          
     </script>
-    <div>
+<section class="tt">
         <p>Tipos de Ar-condicionado<p>
-        <ul>
-            <li>De parede</li>
-            <li>Spliter</li>
-            <li>Portátil</li>
-        </ul>
+        
+            <ul>
+                <li>De parede</li>
+                <li>Spliter</li>
+                <li>Portátil</li>
+            </ul>
+        
         <button type="button" onclick="fechar()">Fechar</button>
-    </div>
+    </section>
 </body>
 </html>
