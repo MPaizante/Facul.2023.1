@@ -7,6 +7,36 @@
  rel='stylesheet'>
 </head>
 <body>
+    <script>
+        function o (o){
+        var o = window.open("","txt" ,"width=250px,heigth=200");
+        
+        o.document.write("<link rel=stylesheet type=text/css,",
+        "href=RefriGlobal.css />",
+            "<p>Tipos de Ar-condicionado<p>",
+            
+                "<ul>",
+                    "<li>De parede</li>",
+                    "<li>Spliter</li>",
+                    "<li>Portátil</li>",
+                    "</ul>",
+                
+                    "<button type=button, >Fechar</button>"
+            )}
+           
+            function c(c){
+                var c = window.open("","txt" ,"width=340px,heigth=320");
+                c.document.write("<p>Tipos de Ar-condicionado<p>",
+                
+                "<ul>",
+                    "<li>De parede</li>",
+                    "<li>Spliter</li>",
+                    "<li>Portátil</li>",
+                    "</ul>",
+                
+                    "<button type=button, >Fechar</button>")}
+                
+    </script>
 <header>
 <address class="ender">
  Av. Novaya Zemlya, 1870<br/>
@@ -31,12 +61,12 @@
 
 
      <ol type="1" class="listaTipos">
-        <a href="tipos.html" target="_blank">
-            <li>Tipo</li>
+        
+            <li onclick="o()"><a href="tipos.html">Tipo</a></li>
         </a>
-        <a href="Capacidade.html" target="_blank">
-            <li>Capacidade</li>
-        </a>
+        
+            <li onclick="c()">Capacidade</li>
+        
     </ol>
      <!--<ol class="listaTipos">
     <li>Tipo <ul>
