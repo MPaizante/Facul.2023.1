@@ -28,5 +28,17 @@ public class Aula04Operadores {
         System.out.println(isDezIgualVinte);
         System.out.println(isDezIgualDez);
         System.out.println(isDezDiferenteDeQueVinte);
+
+        /**
+         * && (AND, e) - || (or, ou) - !(NOT, não, negação)
+         */
+
+
+        int idade = 20;
+        float sal = 3500F;
+        boolean lei = idade > 30 && sal >= 4612;
+        boolean lei2 = idade < 30 && sal >=3381;
+        System.out.println(lei);
+        System.out.println(lei2);
     }
 }
