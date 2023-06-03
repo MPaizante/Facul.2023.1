@@ -40,5 +40,27 @@ public class Aula04Operadores {
         boolean lei2 = idade < 30 && sal >=3381;
         System.out.println(lei);
         System.out.println(lei2);
+
+        double VTCC = 200;
+        double VTCP = 10000;
+        float VP = 5000F;
+
+        boolean isPlay5 = VTCC > VP || VTCP > VP;
+        System.out.println(isPlay5);
+
+        //Operadores de atribuição =, +=, -=,*= , /=, %=
+
+        double bonus = 1888;
+        bonus += 2000 ;
+        System.out.println(bonus);
+        bonus -= 2000;
+        System.out.println(bonus);
+        bonus *= 2;
+        System.out.println(bonus);
+        bonus /= 2;
+        System.out.println(bonus);
+        bonus %= 2;
+        System.out.println(bonus);
+
     }
 }
