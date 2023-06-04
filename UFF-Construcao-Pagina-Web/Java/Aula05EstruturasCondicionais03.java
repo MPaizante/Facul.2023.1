@@ -9,13 +9,14 @@ public class Aula05EstruturasCondicionais03 {
         double terceira = 49.5/100;
 
         double VI;
+
         if(SalAnual <= 34712){
-            SalAnual = SalAnual * primeira;
+            VI = SalAnual * primeira;
         }else if (SalAnual >= 34713 && SalAnual <= 68507){
-            SalAnual = SalAnual * segunda;
+            VI = SalAnual * segunda;
         }else {
-            SalAnual = SalAnual * terceira;
+            VI = SalAnual * terceira;
         }
-        System.out.println("Seu imposto a ser pago será de "+SalAnual);
+        System.out.println("Seu imposto a ser pago será de "+VI +" e seu Salario é de: "+SalAnual);
     }
 }
