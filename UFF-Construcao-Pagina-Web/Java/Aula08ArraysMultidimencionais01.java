@@ -11,7 +11,13 @@ public class Aula08ArraysMultidimencionais01 {
             }
 
         }
+        System.out.println("-------------------------------");
+        for(int [] arrBase:dias){
+            for (int num:arrBase){
+                System.out.println(num);
+            }
 
+        }
 
 
     }
