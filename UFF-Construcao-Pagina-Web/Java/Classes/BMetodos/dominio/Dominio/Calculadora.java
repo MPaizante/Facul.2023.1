@@ -37,10 +37,17 @@ public class Calculadora {
         if (m2 == 0) {
             System.out.println("N existe!");
             return;
-        }else {
+        } else {
             System.out.println(m1 / m2);
         }
     }
 
 
+    public void alteraDoisNumeros(int b1, int b2) {
+        b1 = 99;
+        b2 = 33;
+        System.out.println("Dentro do Altera dois Nuemros");
+        System.out.println("B1 " + b1);
+        System.out.println("B2 " + b2);
+    }
 }
