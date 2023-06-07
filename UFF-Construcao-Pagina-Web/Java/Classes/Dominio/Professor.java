@@ -1,9 +1,7 @@
 package academy.devdojo.Dojo.Java.Classes.Dominio;
 
-public class Estudante {
+public class Professor {
     public String nome;
     public int idade;
     public char sexo;
-
-
 }
