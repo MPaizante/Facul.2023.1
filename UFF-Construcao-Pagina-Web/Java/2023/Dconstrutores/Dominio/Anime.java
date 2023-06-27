@@ -7,21 +7,35 @@ public class Anime {
     private int espisodios;
 
     private String genero;
+    private String estudio;
 
 
 
     public Anime(String nome , String tipo, int espisodios, String genero){
+        this();
         System.out.println("Dentro do construtor.");
         this.nome = nome;
         this.tipo = tipo;
         this.espisodios = espisodios;
         this.genero = genero;
+
+    }
+    public Anime(String nome , String tipo, int espisodios, String genero,String estudio){
+        this(nome,tipo,espisodios,genero); //tem que vir primeiro senão n funciona
+        this.estudio = estudio;
+
+    }
+
+    public Anime(){
+        System.out.println("Dentro do construtor sem Arugmentos.");
     }
     public void imprime(){
         System.out.println(getNome());
         System.out.println(getTipo());
         System.out.println(getEspisodios());
-        System.out.println(getGenero());
+        System.out.println(this.genero);
+        System.out.println(estudio);// pode ser tbm this.estudio
+
 
     }
 

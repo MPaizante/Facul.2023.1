@@ -4,7 +4,7 @@ import academy.devdojo.Dojo.Java.Classes.Dconstrutores.Dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("Araujo", "Stand-up", 24, "Comedia");
+        Anime anime = new Anime("Araujo", "Stand-up", 24, "Comedia","Gibi");
         //anime.inic("Mateus", "Tv", 17);
         //anime.inic("Paizante", "Serie", 22, "Drama");
 
