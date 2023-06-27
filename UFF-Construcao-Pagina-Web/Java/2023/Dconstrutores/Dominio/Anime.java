@@ -1,4 +1,4 @@
-package academy.devdojo.Dojo.Java.Classes.Csobrecargametodos.Dominio;
+package academy.devdojo.Dojo.Java.Classes.Dconstrutores.Dominio;
 
 public class Anime {
 
@@ -10,8 +10,12 @@ public class Anime {
 
 
 
-    public Anime(){
-
+    public Anime(String nome , String tipo, int espisodios, String genero){
+        System.out.println("Dentro do construtor.");
+        this.nome = nome;
+        this.tipo = tipo;
+        this.espisodios = espisodios;
+        this.genero = genero;
     }
     public void imprime(){
         System.out.println(getNome());
@@ -21,19 +25,22 @@ public class Anime {
 
     }
 
-    public void inic(String nome , String tipo, int espisodios){
+    /*public void inic(String nome , String tipo, int espisodios){
         this.nome = nome;
         this.tipo = tipo;
         this.espisodios = espisodios;
+        }*/
 
 
-    }
-    public void inic(String nome , String tipo, int espisodios, String genero){
+
+    /*public void inic(String nome , String tipo, int espisodios, String genero){
         this.inic(nome,tipo,espisodios);
         this.genero = genero;
+        }
+        */
 
 
-    }
+
 
 
     public String getGenero() {
