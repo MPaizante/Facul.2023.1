@@ -20,6 +20,7 @@ public class Seminario {
         this.local = local;
     }
 
+
     public Aluno[] getAlunos() {
         return alunos;
     }
