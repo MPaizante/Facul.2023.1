@@ -1,21 +1,23 @@
 package academy.devdojo.Dojo.Java.Classes.Gassociação.Dominio;
 
 public class Seminario {
-    private String Titulo;
+    private String titulo;
     private Aluno[] alunos;
     private Local local;
 
     public Seminario(String titulo) {
-        Titulo = titulo;
+        titulo = titulo;
     }
 
+
     public Seminario(String titulo, Aluno[] alunos) {
-        Titulo = titulo;
+        this.titulo = titulo;
         this.alunos = alunos;
     }
 
+
     public Seminario(String titulo, Aluno[] alunos, Local local) {
-        Titulo = titulo;
+        this.titulo = titulo;
         this.alunos = alunos;
         this.local = local;
     }
@@ -30,11 +32,11 @@ public class Seminario {
     }
 
     public String getTitulo() {
-        return Titulo;
+        return titulo;
     }
 
     public void setTitulo(String titulo) {
-        Titulo = titulo;
+        titulo = titulo;
     }
 
     public Local getLocal() {
