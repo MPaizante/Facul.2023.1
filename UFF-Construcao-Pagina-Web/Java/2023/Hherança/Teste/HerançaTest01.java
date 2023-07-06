@@ -16,6 +16,7 @@ public class HerançaTest01 {
         pessoa.imprime();
 
         System.out.println("--------------------------");
+
         Funcionario funcionario = new Funcionario();
         Endereço endereço1 = new Endereço();
         endereço1.setRua("SG");
@@ -26,7 +27,7 @@ public class HerançaTest01 {
         funcionario.setSalario(2503.53);
 
         funcionario.imprime();
-        System.out.println("Salario: "+funcionario.getSalario());
+
 
     }
 }
