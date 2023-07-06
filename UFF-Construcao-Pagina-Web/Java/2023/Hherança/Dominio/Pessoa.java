@@ -1,10 +1,18 @@
 package academy.devdojo.Dojo.Java.Classes.Hherança.Dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
+    protected String nome;
+    protected String cpf;
 
-    private Endereço endereço;
+    protected Endereço endereço;
+
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+    public Pessoa(String nome, String cpf){
+        this(nome);
+        this.cpf = cpf;
+    }
 
 
 
