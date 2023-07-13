@@ -1,5 +1,5 @@
 document.getElementById("texto").innerHTML ="<i>Meu primeiro texto <b>JS</b></i>";
-alert("Oi isso é um aleta 5 + 4 = "+(5+4));
+
 console.log("Consle log olha ai meu querido.");
 
 let a, b , c;
@@ -8,6 +8,15 @@ b = 6;
 c = 7;
 console.log(a + b + c);
 
-function minhaFuncao(){
+var pote = "Bombom" ;
+//alert(pote);
+var a1 = 2;
+var b2 = 3;
+var c3 = a1 + b2;
+console.log(c3);
 
-};
+
+let nome = "Matheus ";
+let sobrenome = "Paizante ";
+let nomeCompleto = nome + sobrenome;
+document.getElementById("texto2").innerHTML = nomeCompleto;
