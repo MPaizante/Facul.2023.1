@@ -6,7 +6,19 @@ public class Pessoa {
 
     protected Endereço endereço;
 
+    static {
+        System.out.println("Dentro de estatico pessoa");
+    }
+    {
+        System.out.println("N estatico pessoa 1 ");
+    }
+    {
+        System.out.println("N estatico pessoa 2");
+    }
+
     public Pessoa(String nome){
+
+        System.out.println("Dentro do construtor pessoa");
         this.nome = nome;
     }
     public Pessoa(String nome, String cpf){
