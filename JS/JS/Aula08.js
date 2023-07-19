@@ -17,5 +17,15 @@ console.log(soma(1,5,4))
 console.log(soma)
 
 let valores = [1,5,10];
-console.log(soma(...valores))
+console.log(soma(...valores));
 
+
+const objs = document.getElementsByTagName("div");
+console.log(objs);
+const objs2 = [...document.getElementsByTagName("div")];
+console.log(objs2);
+
+objs2.forEach(element =>{
+    console.log(element)
+});
+console.log(objs2)
