@@ -67,3 +67,24 @@ switch(colocacao){
         console.log('Não foi classificado.');
         break;
 }
+
+for(let i = 0; i <= 10; i = i + 1/*i++*/ ){
+    console.log("Valor do i = "+i)
+    if(i % 2 == 0){
+        console.log(i + ' é par')
+
+    }else{
+        console.log(i +' é impar.')
+    }
+}
+
+let n = [10,20,30,40,50];
+
+for(let p = 0; p< n.length ; p++){
+    console.log(n[p]);
+};
+
+console.log("");
+for(a in n){
+    console.log(n[a]);
+}
