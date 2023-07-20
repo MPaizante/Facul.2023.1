@@ -48,3 +48,22 @@ if(energia > 70 && clima == 'Sol'){
 }else{
     console.log('Vou ao cinema.');
 };
+
+
+
+let colocacao = 3;
+
+switch(colocacao){
+    case 1:
+        console.log('Primeiro lugar ouro');
+        break;
+    case 2:
+        console.log('Segundo lugar prata.');
+        break;
+    case 3:
+        console.log('Terceiro lugar bronze.');
+        break;
+    default:
+        console.log('Não foi classificado.');
+        break;
+}
