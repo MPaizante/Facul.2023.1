@@ -29,3 +29,22 @@ objs2.forEach(element =>{
     console.log(element)
 });
 console.log(objs2)
+
+let num = 10;
+if (num >10){
+    console.log("Maior que 10");
+}else{
+    console.log("Menor ou igual a dez.")
+}
+
+console.log("Fim do programa");
+
+
+let energia = 100;
+let clima = 'Sol';
+
+if(energia > 70 && clima == 'Sol'){
+    console.log('Vou a praia.');
+}else{
+    console.log('Vou ao cinema.');
+};
