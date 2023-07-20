@@ -87,4 +87,19 @@ for(let p = 0; p< n.length ; p++){
 console.log("");
 for(a in n){
     console.log(n[a]);
-}
+};
+console.log('');
+for(a of n){
+    console.log(n);
+};
+
+for(o of objs){
+    console.log(o.innerHTML='Curso');
+};
+
+console.log('');
+
+for(o in objs){
+    console.log(objs[o].innerHTML);
+    console.log(o);
+};
