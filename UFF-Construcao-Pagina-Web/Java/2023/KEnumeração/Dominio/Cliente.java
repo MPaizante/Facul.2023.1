@@ -2,24 +2,19 @@ package academy.devdojo.Dojo.Java.Classes.KEnumeração.Dominio;
 
 public class Cliente {
     private String nome;
-    private String tipo;
-    private TipoCliente tipoCliente;
-    public static final String Pessoa_Fisica = "Pessoa_Fisica";
-    public static final String Pessoa_Juridica = "Pessoa_Juridica";
 
-    public Cliente(String nome, String tipo) {
-        if(!tipo.equals(Pessoa_Fisica)  && !tipo.equals(Pessoa_Juridica)){
-            return;
-        };
+    private TipoCliente tipoCliente;
+
+    public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
     }
 
     @Override
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", tipo='" + tipo + '\'' +
+                ", tipoCliente=" + tipoCliente +
                 '}';
     }
 
@@ -31,11 +26,12 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
+
 }
