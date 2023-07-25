@@ -10,12 +10,22 @@ public enum TipoCliente {
         this.valor = valor;
         this.nomeRelatorio = nomeRelatorio;
     }
+    public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio){
 
-    public int getValor() {
-        return valor;
-    }
 
-    public String getNomeRelatorio() {
-        return nomeRelatorio;
-    }
+        return null;
 }
+
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+
+    public void setNomeRelatorio(String nomeRelatorio) {
+        this.nomeRelatorio = nomeRelatorio;
+    }
+
+
+
+
+
+    }
