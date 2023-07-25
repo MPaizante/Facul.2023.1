@@ -1,9 +1,7 @@
 package academy.devdojo.Dojo.Java.Classes.KEnumeração.Dominio;
 
 public class Cliente {
-    public enum TipoPagamento{
-        DEBITO,CREDITO
-    }
+
     private String nome;
 
     private TipoCliente tipoCliente;
@@ -20,7 +18,7 @@ public class Cliente {
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", tipoCliente=" + tipoCliente +
+                ", tipoCliente=" + tipoCliente  +
                 ", tipoPagamento=" + tipoPagamento +
                 '}';
     }
