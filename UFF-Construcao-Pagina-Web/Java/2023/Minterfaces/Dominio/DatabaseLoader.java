@@ -15,4 +15,8 @@ public class DatabaseLoader implements DataLoader, DataRemove {
     public void checkPermission() {
         System.out.println("Chegando permissões no BD.");
     }
+    public static void retrieveMaxDataSize(){
+        System.out.println("Dentro do retrieveMaxDataSize na interface da classe...");
+    }
+
 }
